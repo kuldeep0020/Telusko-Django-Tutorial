@@ -8,3 +8,4 @@ class Destination(models.Model):
     img = models.TextField()
     desc = models.CharField(max_length=60)
     price = models.IntegerField()
+    offer = bool
